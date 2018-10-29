@@ -1,0 +1,19 @@
+opam-version: "1.2"
+maintainer: "m@cdagostino.io"
+authors: [
+  "Carlos D'Agostino"
+]
+homepage: "https://github.com/carlosdagos/ocaml-postgrest"
+bug-reports: "https://github.com/carlosdagos/ocaml-postgrest/issues"
+license: "ISC"
+tags: ["db:postgrest"]
+dev-repo: "https://github.com/postgrest/ocaml-postgrest.git"
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+build-test: ["dune" "runtest" "-p" name "-j" jobs]
+depends: [
+  "dune" {build & >= "1.1.0"}
+]
+available: [ocaml-version >= "4.04.1"]

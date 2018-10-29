@@ -1,0 +1,5 @@
+(library
+  (name postgrest)
+  (public_name postgrest)
+  (libraries core cohttp cohttp-lwt cohttp-lwt-unix lwt.unix
+             yojson ppx_deriving_yojson))

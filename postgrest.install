@@ -1,0 +1,28 @@
+lib: [
+  "_build/install/default/lib/postgrest/META" {"META"}
+  "_build/install/default/lib/postgrest/client.ml" {"client.ml"}
+  "_build/install/default/lib/postgrest/opam" {"opam"}
+  "_build/install/default/lib/postgrest/postgrest.a" {"postgrest.a"}
+  "_build/install/default/lib/postgrest/postgrest.cma" {"postgrest.cma"}
+  "_build/install/default/lib/postgrest/postgrest.cmi" {"postgrest.cmi"}
+  "_build/install/default/lib/postgrest/postgrest.cmt" {"postgrest.cmt"}
+  "_build/install/default/lib/postgrest/postgrest.cmx" {"postgrest.cmx"}
+  "_build/install/default/lib/postgrest/postgrest.cmxa" {"postgrest.cmxa"}
+  "_build/install/default/lib/postgrest/postgrest.cmxs" {"postgrest.cmxs"}
+  "_build/install/default/lib/postgrest/postgrest.dune" {"postgrest.dune"}
+  "_build/install/default/lib/postgrest/postgrest.ml-gen" {"postgrest.ml-gen"}
+  "_build/install/default/lib/postgrest/postgrest__Client.cmi" {"postgrest__Client.cmi"}
+  "_build/install/default/lib/postgrest/postgrest__Client.cmt" {"postgrest__Client.cmt"}
+  "_build/install/default/lib/postgrest/postgrest__Client.cmx" {"postgrest__Client.cmx"}
+  "_build/install/default/lib/postgrest/postgrest__Types.cmi" {"postgrest__Types.cmi"}
+  "_build/install/default/lib/postgrest/postgrest__Types.cmt" {"postgrest__Types.cmt"}
+  "_build/install/default/lib/postgrest/postgrest__Types.cmx" {"postgrest__Types.cmx"}
+  "_build/install/default/lib/postgrest/postgrest__Util.cmi" {"postgrest__Util.cmi"}
+  "_build/install/default/lib/postgrest/postgrest__Util.cmt" {"postgrest__Util.cmt"}
+  "_build/install/default/lib/postgrest/postgrest__Util.cmx" {"postgrest__Util.cmx"}
+  "_build/install/default/lib/postgrest/types.ml" {"types.ml"}
+  "_build/install/default/lib/postgrest/util.ml" {"util.ml"}
+]
+doc: [
+  "_build/install/default/doc/postgrest/README.md"
+]
