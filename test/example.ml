@@ -21,3 +21,9 @@ module C =
       let host = "localhost"
       let port = 3000
     end)
+
+let%expect_test _ =
+  print_endline "It works!";
+  [%expect{|
+    It works!
+  |}]

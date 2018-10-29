@@ -1,7 +1,9 @@
 (library
   (name example)
   (inline_tests)
-  (preprocess (pps ppx_inline_test ppx_deriving_yojson))
+  (preprocess (pps ppx_expect ppx_inline_test ppx_deriving_yojson))
   (libraries core cohttp cohttp-lwt cohttp-lwt-unix
              lwt.unix yojson postgrest
-             ppx_deriving_yojson))
+             ppx_deriving_yojson
+             ppx_deriving_yojson.runtime
+             ))
