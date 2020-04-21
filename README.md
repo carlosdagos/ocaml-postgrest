@@ -1,6 +1,6 @@
-# WIP
+# ocaml-postgrest
 
-## WIP
+## 
 
 WIP
 
